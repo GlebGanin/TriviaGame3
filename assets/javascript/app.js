@@ -1,7 +1,7 @@
 
 //LOAD START BUTTON ON PAGE LOAD
 $(document).ready(function(){
-        $('#question').html('<img id="gamestart" src="Assets/Images/start.png">');
+        $('#question').html('<img id="gamestart" src="assets/images/start.png">');
         });
 
 
@@ -93,8 +93,8 @@ function gameStart () {
 
                         if (seconds === 0) {
                                 clearInterval(timer)
-                                $('#question').html('<img id = "gameover" src="Assets/Images/gameover.jpg">').addClass('clearstyle');
-                                $('#topbar').html('<img id = "replay" src = "Assets/Images/replay.png">');
+                                $('#question').html('<img id = "gameover" src="assets/images/gameover.jpg">').addClass('clearstyle');
+                                $('#topbar').html('<img id = "replay" src = "assets/images/replay.png">');
                 
                         }
                 }
